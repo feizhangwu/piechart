@@ -1,7 +1,7 @@
 {
   "type": "panel",
-  "name": "Pie Chart",
-  "id": "grafana-piechart-panel",
+  "name": "PPPie Chart",
+  "id": "grafana-pppiechart-panel",
 
   "info": {
     "description": "Pie chart panel for grafana",
