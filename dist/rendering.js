@@ -160,7 +160,7 @@ System.register(['lodash', 'jquery', 'jquery.flot', 'jquery.flot.pie'], function
         }
         var percent = parseFloat(item.series.percent).toFixed(2);
         alert('' + item.series.label + ':' + percent + '%');
-        window.location.href("http://www.baidu.com");
+        window.location = "http://www.baidu.com";
       });
     }
 

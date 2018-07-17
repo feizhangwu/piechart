@@ -157,7 +157,7 @@ export default function link(scope, elem, attrs, ctrl) {
         }
         var percent = parseFloat(item.series.percent).toFixed(2);
         alert(''+item.series.label+':'+percent+'%');
-        window.location.href("http://www.baidu.com");
+        window.location="http://www.baidu.com";
     })
   }
 
