@@ -158,9 +158,9 @@ System.register(['lodash', 'jquery', 'jquery.flot', 'jquery.flot.pie'], function
         if (!item) {
           return;
         }
-        var percent = parseFloat(item.series.percent).toFixed(2);
-        alert('' + item.series.label + ':' + percent + '%');
-        window.location = "http://www.baidu.com";
+        var mylabel = item.series.label;
+        console.log(mylabel);
+        vm.selectValue(mylabel, $event);
       });
     }
 
